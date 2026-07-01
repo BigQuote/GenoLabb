@@ -1,0 +1,410 @@
+{% extends "base.html" %}
+
+{% block title %}GenoLab | Diagnóstico Molecular{% endblock %}
+
+{% block content %}
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="hero-content">
+
+            <h2>Laboratório Especializado</h2>
+
+            <h1>
+                Diagnóstico Molecular
+                de Alta Precisão
+            </h1>
+
+            <p>
+
+                A GenoLab utiliza tecnologias modernas como PCR,
+                RT-qPCR, PCR-RFLP e LAMP para oferecer diagnósticos
+                rápidos, precisos e confiáveis para pacientes,
+                clínicas e hospitais.
+
+            </p>
+
+            <div class="botoes">
+
+                <a href="/exames" class="btn">
+                    Conheça nossos exames
+                </a>
+
+                <a href="/contato" class="btn-outline">
+                    Agende seu exame
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SOBRE -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Quem Somos
+        </h2>
+
+        <p class="subtitulo">
+            Tecnologia, inovação e confiança para um diagnóstico molecular de excelência.
+        </p>
+
+        <div class="card">
+
+    <span class="badge">
+        Sobre a GenoLab
+    </span>
+
+    <h2>
+        Excelência em Diagnóstico Molecular
+    </h2>
+
+    <p>
+
+        A GenoLab é especializada em exames moleculares para
+        diagnóstico de doenças infecciosas, genéticas e hereditárias.
+
+    </p>
+
+    <p>
+
+        Trabalhamos com equipamentos modernos e profissionais
+        altamente qualificados para oferecer resultados rápidos
+        e seguros.
+
+    </p>
+
+    <a href="/quem-somos" class="btn">
+
+        Saiba mais
+
+    </a>
+
+</div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- DIFERENCIAIS -->
+
+<section>
+
+<div class="container">
+
+<h2 class="titulo">
+
+Nossos Diferenciais
+
+</h2>
+
+<p class="subtitulo">
+
+Compromisso com qualidade, inovação e precisão científica.
+
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<i class="fa-solid fa-clock"></i>
+
+<h3>Resultados Rápidos</h3>
+
+<p>
+
+Laudos entregues com agilidade
+sem comprometer a qualidade.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-microscope"></i>
+
+<h3>Tecnologia Moderna</h3>
+
+<p>
+
+Equipamentos modernos para
+diagnóstico molecular.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-user-doctor"></i>
+
+<h3>Especialistas</h3>
+
+<p>
+
+Equipe qualificada em Biologia
+Molecular e Genética.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+<h3>Segurança</h3>
+
+<p>
+
+Controle rigoroso de qualidade
+e proteção das informações.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PRINCIPAIS EXAMES -->
+
+<section>
+
+<div class="container">
+
+<h2 class="titulo">
+
+Principais Exames
+
+</h2>
+
+<p class="subtitulo">
+
+Conheça alguns dos exames realizados pela GenoLab.
+
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>PCR Convencional</h3>
+
+<p>
+
+Amplificação de DNA para diagnóstico
+de diversas doenças infecciosas.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>RT-qPCR</h3>
+
+<p>
+
+Detecção e quantificação de RNA
+em tempo real.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>PCR-RFLP</h3>
+
+<p>
+
+Identificação de polimorfismos
+genéticos.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>LAMP</h3>
+
+<p>
+
+Método molecular rápido,
+sensível e específico.
+
+</p>
+
+</div>
+
+</div>
+
+<br><br>
+
+<div style="text-align:center;">
+
+<a href="/exames" class="btn">
+
+Ver todos os exames
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FARMACOGENÉTICA -->
+
+<section>
+
+<div class="container">
+
+<div class="sobre">
+
+<div>
+
+<h2>
+
+Farmacogenética
+
+</h2>
+
+<p>
+
+A farmacogenética estuda como
+as diferenças no DNA influenciam
+a resposta aos medicamentos.
+
+</p>
+
+<p>
+
+Esses testes permitem tratamentos
+mais eficazes e personalizados,
+auxiliando médicos na escolha da
+melhor terapia para cada paciente.
+
+</p>
+
+<a href="/especialidade" class="btn">
+
+Conheça a especialidade
+
+</a>
+
+</div>
+
+<img src="{{ url_for('static', filename='img/dna.jpg') }}" alt="DNA">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTADORES -->
+
+<section>
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+
+<h2 style="color:#F4B400;font-size:50px;">15.000+</h2>
+
+<p>Exames realizados</p>
+
+</div>
+
+<div class="card">
+
+<h2 style="color:#F4B400;font-size:50px;">99%</h2>
+
+<p>Precisão Analítica</p>
+
+</div>
+
+<div class="card">
+
+<h2 style="color:#F4B400;font-size:50px;">24h</h2>
+
+<p>Entrega para diversos exames</p>
+
+</div>
+
+<div class="card">
+
+<h2 style="color:#F4B400;font-size:50px;">100%</h2>
+
+<p>Compromisso com a qualidade</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section>
+
+<div class="container">
+
+<div class="card" style="text-align:center;padding:60px;">
+
+<h2 style="margin-bottom:20px;color:#F4B400;">
+
+Agende seu exame na GenoLab
+
+</h2>
+
+<p style="margin-bottom:35px;">
+
+Nossa equipe está pronta para oferecer
+um atendimento rápido, seguro e humanizado.
+
+</p>
+
+<a href="/contato" class="btn">
+
+Entrar em Contato
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+{% endblock %}

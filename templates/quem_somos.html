@@ -1,0 +1,308 @@
+{% extends "base.html" %}
+
+{% block title %}Quem Somos | GenoLab{% endblock %}
+
+{% block content %}
+
+<!-- Banner -->
+
+<section class="page-banner">
+
+    <div class="container">
+
+        <h1>Quem Somos</h1>
+
+        <p>
+            Tecnologia, inovação e precisão a serviço do Diagnóstico Molecular.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- Sobre -->
+
+<section>
+
+    <div class="container">
+
+        <div class="sobre">
+
+            <img src="{{ url_for('static', filename='img/equipe.jpg') }}" alt="Equipe GenoLab">
+
+            <div>
+
+                <span class="badge">
+                    Sobre a GenoLab
+                </span>
+
+                <h2>
+                    Diagnóstico Molecular com excelência científica
+                </h2>
+
+                <p>
+
+                    A <strong class="texto-destaque">GenoLab</strong> é um laboratório especializado em
+                    Diagnóstico Molecular, oferecendo exames genéticos,
+                    microbiológicos e infecciosos utilizando tecnologias
+                    modernas como PCR, RT-qPCR, PCR-RFLP, LAMP e análises
+                    moleculares.
+
+                </p>
+
+                <p>
+
+                    Nosso objetivo é fornecer diagnósticos rápidos,
+                    precisos e confiáveis para médicos, hospitais,
+                    clínicas e pacientes, contribuindo para decisões
+                    clínicas mais seguras.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Missão, Visão e Valores -->
+
+<section>
+
+<div class="container">
+
+<h2 class="titulo">
+
+Nossa Filosofia
+
+</h2>
+
+<p class="subtitulo">
+
+Conheça os princípios que orientam nosso trabalho.
+
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<i class="fa-solid fa-bullseye"></i>
+
+<h3>Missão</h3>
+
+<p>
+
+Oferecer diagnósticos moleculares rápidos,
+precisos e confiáveis utilizando tecnologia
+de ponta e excelência científica.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-eye"></i>
+
+<h3>Visão</h3>
+
+<p>
+
+Ser referência nacional em Diagnóstico
+Molecular, inovação tecnológica e
+medicina personalizada.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-gem"></i>
+
+<h3>Valores</h3>
+
+<p>
+
+✔ Ética<br>
+
+✔ Inovação<br>
+
+✔ Precisão<br>
+
+✔ Qualidade<br>
+
+✔ Segurança<br>
+
+✔ Compromisso com o paciente
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Diferenciais -->
+
+<section>
+
+<div class="container">
+
+<div class="grid-2">
+
+<div>
+
+<span class="badge">
+
+Por que escolher a GenoLab?
+
+</span>
+
+<h2>
+
+Compromisso com qualidade e inovação
+
+</h2>
+
+<p>
+
+Investimos continuamente em tecnologia,
+capacitação profissional e controle de
+qualidade para garantir resultados
+seguros e confiáveis.
+
+</p>
+
+<p>
+
+Nossa equipe é formada por profissionais
+especializados em Biologia Molecular,
+Genética, Microbiologia e Diagnóstico
+Clínico.
+
+</p>
+
+</div>
+
+<div class="img-box">
+
+<img src="{{ url_for('static', filename='img/microscopio.jpg') }}" alt="Microscópio">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Estatísticas -->
+
+<section>
+
+<div class="container">
+
+<h2 class="titulo">
+
+Nossa Estrutura
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h2 style="font-size:48px;color:#F4B400;">15.000+</h2>
+
+<p>
+
+Exames realizados.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2 style="font-size:48px;color:#F4B400;">99%</h2>
+
+<p>
+
+Precisão analítica.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2 style="font-size:48px;color:#F4B400;">24h</h2>
+
+<p>
+
+Entrega para diversos exames.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2 style="font-size:48px;color:#F4B400;">100%</h2>
+
+<p>
+
+Controle de qualidade em todas as etapas.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Chamada -->
+
+<section>
+
+<div class="container">
+
+<div class="card" style="text-align:center;">
+
+<h2 style="color:#F4B400;margin-bottom:20px;">
+
+Conheça nossos exames
+
+</h2>
+
+<p style="margin-bottom:30px;">
+
+A GenoLab oferece um amplo portfólio de exames
+moleculares para apoiar diagnósticos rápidos
+e precisos.
+
+</p>
+
+<a href="/exames" class="btn">
+
+Ver Exames
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+{% endblock %}

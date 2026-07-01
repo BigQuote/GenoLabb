@@ -1,0 +1,277 @@
+{% extends "base.html" %}
+
+{% block title %}Blog | GenoLab{% endblock %}
+
+{% block content %}
+
+<!-- Banner -->
+
+<section class="page-banner">
+
+    <div class="container">
+
+        <h1>Blog Científico</h1>
+
+        <p>
+            Conteúdo sobre Diagnóstico Molecular, Genética e Medicina Personalizada.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- Posts -->
+
+<section>
+
+<div class="container">
+
+<h2 class="titulo">
+
+Últimas Publicações
+
+</h2>
+
+<p class="subtitulo">
+
+Fique por dentro das principais tecnologias utilizadas em Biologia Molecular.
+
+</p>
+
+<div class="blog">
+
+<!-- POST 1 -->
+
+<div class="post">
+
+<img src="{{ url_for('static', filename='img/pcr.jpg') }}" alt="PCR">
+
+<div class="post-content">
+
+<span class="badge">
+
+Diagnóstico Molecular
+
+</span>
+
+<h3>
+
+O que é PCR?
+
+</h3>
+
+<p>
+
+A Reação em Cadeia da Polimerase (PCR)
+é uma técnica utilizada para amplificar
+fragmentos específicos de DNA, permitindo
+o diagnóstico de diversas doenças.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- POST 2 -->
+
+<div class="post">
+
+<img src="{{ url_for('static', filename='img/genetico.jpg') }}" alt="Teste Genético">
+
+<div class="post-content">
+
+<span class="badge">
+
+Genética
+
+</span>
+
+<h3>
+
+Como funciona um teste genético?
+
+</h3>
+
+<p>
+
+Os testes genéticos analisam regiões do DNA
+para identificar variantes relacionadas a
+doenças hereditárias, farmacogenética
+e predisposições genéticas.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- POST 3 -->
+
+<div class="post">
+
+<img src="{{ url_for('static', filename='img/rtqpcr.jpg') }}" alt="RT-qPCR">
+
+<div class="post-content">
+
+<span class="badge">
+
+RT-qPCR
+
+</span>
+
+<h3>
+
+O que é RT-qPCR?
+
+</h3>
+
+<p>
+
+O RT-qPCR permite detectar e quantificar RNA
+em tempo real, sendo amplamente utilizado
+no diagnóstico de infecções virais.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- POST 4 -->
+
+<div class="post">
+
+<img src="{{ url_for('static', filename='img/dna2.jpg') }}" alt="Diagnóstico Molecular">
+
+<div class="post-content">
+
+<span class="badge">
+
+Ciência
+
+</span>
+
+<h3>
+
+Diagnóstico Molecular
+
+</h3>
+
+<p>
+
+As técnicas moleculares permitem identificar
+microrganismos e alterações genéticas
+com rapidez, precisão e elevada sensibilidade.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- POST 5 -->
+
+<div class="post">
+
+<img src="{{ url_for('static', filename='img/farmacogenetica.jpg') }}" alt="Farmacogenética">
+
+<div class="post-content">
+
+<span class="badge">
+
+Medicina Personalizada
+
+</span>
+
+<h3>
+
+Como a Farmacogenética melhora o tratamento?
+
+</h3>
+
+<p>
+
+Conheça como a análise genética pode ajudar
+na escolha do medicamento mais adequado
+para cada paciente.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- POST 6 -->
+
+<div class="post">
+
+<img src="{{ url_for('static', filename='img/laboratorio2.jpg') }}" alt="Laboratório">
+
+<div class="post-content">
+
+<span class="badge">
+
+Laboratório
+
+</span>
+
+<h3>
+
+Por que escolher um laboratório especializado?
+
+</h3>
+
+<p>
+
+Conheça a importância do controle de qualidade,
+da equipe especializada e da tecnologia
+na confiabilidade dos resultados.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Chamada -->
+
+<section>
+
+<div class="container">
+
+<div class="card" style="text-align:center;">
+
+<h2 style="color:#F4B400; margin-bottom:20px;">
+
+Quer saber mais sobre Diagnóstico Molecular?
+
+</h2>
+
+<p style="margin-bottom:30px;">
+
+Acompanhe nosso blog e fique atualizado
+sobre novas tecnologias, exames moleculares
+e medicina personalizada.
+
+</p>
+
+<a href="/contato" class="btn">
+
+Entre em Contato
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+{% endblock %}
