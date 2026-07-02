@@ -1225,3 +1225,13 @@ footer{
 section{
     overflow: visible;
 }
+
+.post-content i{
+    font-size:45px;
+    color:#F4B400;
+    margin-bottom:20px;
+}
+
+.post{
+    min-height:280px;
+}
